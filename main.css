@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  color: #660099;
+}
+
+h3 {
+  text-align: left;
+  color: #9933CC;
+}
+
+body {
+  font-family: arial;
+}
+
+.lessontitle {
+  background-color: #9999CC;
+  border-radius: 20px;
+  color: black;
+  padding: 10px;
+}
+
+.ideas {
+  background-color: #E0E0E0;
+  padding: 4px;
+  margin: 10px;
+  border-radius: 4px;
+  color: black;
+}
+
+.background {
+  background-color: #6600CC;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.img {
+  text-align: center;
+}

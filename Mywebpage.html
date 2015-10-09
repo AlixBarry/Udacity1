@@ -1,0 +1,148 @@
+<html>
+
+<head>
+  <title>Alix Barry Web Page</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <h1>Introduction to Programming NaNo Degree</h1>
+  <div class=background>
+    <div class="lessontitle">
+      <h2>Lesson 1: Getting Started With HTML</h2>
+    </div>
+    <div class=ideas>
+      <p>
+        The World Wide Web is made up of many computers communicating with each other. When you open a web page your computer sends a request to the server. The server finds the HTML document and sends it back to the computer. Your web browser then inturprets
+        it and opens it. For a great overview watch <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/e-48329854/m-48480496">this</a> video.
+      </p>
+      <h3>HTML</h3>
+      <p>
+        HTML stands for <em>Hyper Text Markup Language</em>, it is the language computers "speak" to each other in. HTML Documents are made up of <b>text</b> (what you see) and <b>markup</b> (how it looks). HTML documents form the majority of content
+        on the web.
+      </p>
+      <h3>HTML Vocabulary</h3>
+      <p>
+        <b>Tags</b> An HTML tag is always contained within angled brackets. Most have opening and closing brackets, but some are void tags, meaning they do not require a closing bracket.
+      </p>
+      <p>
+        <b>Elements</b> This refers to everything within the Tag.
+      </p>
+      <p>
+        <b>Attribute</b> the property of the HTML element
+      </p>
+      <h3>Inline V Block Elements</h3>
+      <p>
+        HTML elements are either Inline or Block Elements. A block element forms a box around what's inside it.
+      </p>
+      <h3>Example of HTML Tags</h3>
+      <p>&lt;name&gt;contents&lt;/name&gt; e.g &lt;b&gt;This tag makes a word bold&lt;/b&gt;
+        <br>
+        <br> &lt;tagname ATTR="Value"&gt;content&lt;/tagname&gt; e.g &lt;a href="www.Twitter.com"&gt;This Tag links to Twitter&lt;/a&gt; </p>
+      <h3>Computers Are Stupid</h3>
+      <p>
+        Computers can do many wonderful things, but they inturpret all instructions <em>literally</em>. This means programmers need to write <em>exactly</em> what they mean or huge problems can occur.
+      </p>
+      <h3>You Can't Remember Everything</h3>
+      <p>If you forget how to do something, like add a link to a web page, you can always look it up!</p>
+    </div>
+
+    <div>
+      <div class="lessontitle">
+        <h2>Lesson 2: Creating a Web Page with HTML</h2>
+      </div>
+      <div class=ideas>
+        <h3>HTML, CSS and Java Script</h3>
+        <p>These are the languages that programmers use to develop web pages. If we think of the web like a house then <b>HTML</b> is the structure (the rooms)
+          <b>CSS</b> is the design (colours, paintings) and <b>Java script</b> is like the interactive elements (the TV remote). Each language has it's own set of rules. Progammers must follow these rules so that the computer can understand how the web
+          page should be displayed.
+        </p>
+        <h3>The DOM Tree</h3>
+        <p>The <b>Dom (Document Object Model) Tree</b> refers to the fact that an HTML document resembles a tree. An HTML element can have another HTML element nested inside it and so on and so on, all branching out from the same starting point, like the
+          branches of a tree.
+          <br>
+          <br> When you look at the HTML of a web page, the more deeply indented an element is, the more deeply nested it is.
+        </p>
+        <h3>Boxes</h3>
+        <p>Everything on a web page is in a box! Although you might not be able to see the box. You can use place holder content to remmember which box is which.
+        </p>
+        <h3>Text Editors</h3>
+        <p>There are different text editors programmers can use for writing code (Scratchpad, Codepen, Sublime) they all have different advanatages. Text editors can make programmers lives easier by automatically adding closing tags.
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <div class="lessontitle">
+        <h2>Lesson 3: Adding CSS Style and HTML Structure</h2>
+      </div>
+      <div class=ideas>
+        <h3>Adding Style</h3>
+        <p>You need to tell the browser where to find the styling information.
+
+          <br>
+          <ul>
+            <li>Begin with &lt;!Doctype html&gt; this tells the browser that the type of documnet is an HTML file.</li>
+
+            <li>Next add &lt;HTML&gt; because everything is written in HTML. Don't forget to include the end tag!</li>
+
+            <li>Next add the &lt;head&gt;&lt;/head&gt; tag. This is where you will link to the style file.</li>
+
+            <li>Next add the &lt;body&gt;&lt;/body&gt; which is where your text will go.</li>
+
+            <li>For usability indent your code This <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-4131369051/e-3614428682/m-2603798584">video</a> demonstrates the above.</li>
+          </ul>
+          <h3>Don't repeat yourself</h3>
+          <p>CSS <em>(Cascading Style Sheets)</em> allows programmers to avoid repition. You can have several style sheets which cascade down until you find the best one to describe the element.
+            <em>Inheritance</em> refers to the fact that properites are applied not only to a specified element but to it's descendants.</p>
+          <h3>Using CSS</h3>
+          <p>First choose a selector, this is the element the CSS will apply to. If you choose an HTML tag the rule will apply to all tags on that page. The other way is to select elements by class. The beginning of this <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-4131369051/e-2663568566/m-2616578593">video</a>            shows you how to write that code. This <a href="https://css-tricks.com/how-css-selectors-work/">web page</a> also gives a great overview of different types of selectors and how to use them.
+          </p>
+          <h3>The Box Model</h3>
+          <p>As we said earlier <em>everything</em> on the web is inside a box. Each box also has padding, a boarder and a margin surrounding it.</p>
+          <div class=img>
+            <p><img src="https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif" alt="Example of a box" style="width:402px;height:294px;">
+            </p>
+          </div>
+          <p>These extra elements mean that it's diffcult to calucate how much space the box will take up. To fix this you can use the following CCS styling
+            <br> * {
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Box-sizing: boarder-box;
+            <br> }
+            <br>
+            <br> However not all browsers recongize this code so you need to add
+            <br>*{
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-webkit-box-sizing:
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-box;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-box-sizing:
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-box;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;box-sizing:
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-box; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br> }
+            <br>
+            <br> Or you can set the size in % rather than pixals. When using a % the box will change depending of the size of the screen being used.
+          </p>
+          <h3>The Flex Box</h3>
+          <p>CSS can give you power over the positioning of the boxes. One way to do this is to use the <b>Flex Box</b>. When you change the display attribute of the parent container to value flex, the child elements try to align. Here is a <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">guide</a>            to <b>Flex Boxes</b>.
+          </p>
+          <h3>Adding Images</h3> When adding an image remember to add alt="This is a screenshot" incase the photo does not display.
+          <h3>Code, Test, Refine</h3>
+          <p>
+            When you are wrting HTML and CSS to re- create the design mockup remember the following.
+            <p>
+              <ol>
+                <li>Look for Natural Boxes.</li>
+                <li>Look for repeated styles and semantic elements.</li>
+                <li>Write your HTML</li>
+                <li>Apply Styles (big then small)</li>
+                <li>Fix Things</li>
+                <li> Test your page in developer tools to make sure it will display on all web pages.
+                  <br> Verifiy HTML <a href="http://validator.w3.org/#validate_by_input">here</a>
+                  <br> Verifiy HTML <a href=" http://jigsaw.w3.org/css-validator/#validate_by_input">here</a>
+                </li>
+              </ol>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
