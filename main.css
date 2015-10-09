@@ -12,16 +12,26 @@ body {
   font-family: arial;
 }
 
-.lessontitle {
-  background-color: #9999CC;
-  border-radius: 20px;
-  color: black;
+.sectiontitle {
+  margin: 10px;
   padding: 10px;
+  border-radius: 4px;
+  color: black;
+  background-color: #9999CC; 
+}
+
+.lessontitle {
+  margin: 8px;
+  text-align: center;
+  background-color: #9999CC;
+  padding: 10px;
+  border-radius: 4px;
+  color: black;
 }
 
 .ideas {
   background-color: #E0E0E0;
-  padding: 4px;
+  padding: 10px;
   margin: 10px;
   border-radius: 4px;
   color: black;
@@ -29,9 +39,9 @@ body {
 
 .background {
   background-color: #6600CC;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px
 }
 
 * {
