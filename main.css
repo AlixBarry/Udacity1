@@ -13,35 +13,27 @@ body {
 }
 
 .sectiontitle {
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
-  border-radius: 4px;
+  border-radius: 10px;
   color: black;
   background-color: #9999CC; 
 }
 
-.lessontitle {
-  margin: 8px;
-  text-align: center;
-  background-color: #9999CC;
-  padding: 10px;
-  border-radius: 4px;
-  color: black;
-}
 
 .ideas {
   background-color: #E0E0E0;
   padding: 10px;
-  margin: 10px;
-  border-radius: 4px;
+  margin: 20px;
+  border-radius: 10px;
   color: black;
 }
 
 .background {
   background-color: #6600CC;
   padding: 10px;
-  margin: 10px;
-  border-radius: 4px
+  margin: 20px;
+  border-radius: 10px
 }
 
 * {
